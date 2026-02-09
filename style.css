@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+
+    /* Center everything */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    /* Modern background */
+    background: linear-gradient(135deg, #f8f9fb, #eef1f5);
+    color: #1f2933;
+    padding: 40px 20px;
+}
+
+/* Title styling */
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: -0.02em;
+}
+
+/* Image styling */
+img {
+    max-width: 90%;
+    width: auto;
+    height: 250px;
+
+    border-radius: 18px;
+    margin: 20px 0;
+
+    /* Soft modern shadow */
+    box-shadow: 
+        0 10px 25px rgba(0, 0, 0, 0.08),
+        0 4px 10px rgba(0, 0, 0, 0.04);
+
+    /* Smooth hover animation */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Image hover effect */
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.12),
+        0 8px 16px rgba(0, 0, 0, 0.06);
+}
